@@ -1,0 +1,2 @@
+put .pioenvs/esp12e/firmware.bin doorbell.ringer.bin
+rm doorbell.ringer.bin.sent

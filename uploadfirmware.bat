@@ -1,0 +1,1 @@
+cat uploadfirmware.txt | sftp pi@192.168.1.20:/var/www/html/espupdate/bin
