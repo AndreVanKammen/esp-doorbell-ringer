@@ -59,8 +59,6 @@ void setup()
       digitalWrite(2, LOW); 
     connectCount++;
     delay(1);
-    if (connectCount>20000)
-      ESP.deepSleep(0);
   }
 #ifdef SERIAL_DEBUG
    Serial.print("WiFi connected in: "); Serial.println(millis()-setupStartMillis);
